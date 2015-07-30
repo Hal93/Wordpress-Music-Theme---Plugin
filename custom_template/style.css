@@ -1,0 +1,303 @@
+@CHARSET "ISO-8859-1";
+/*
+THEME NAME: AWPA
+DESCRIPTION: Music Theme.
+VERSION: 1.0
+AUTHOR Dean O Halloran
+*/
+
+body { 
+	text-align: center; 
+	background-color: #D6D6C2;
+}
+
+#wrapper { 
+	display: block; 
+	width:90%;
+	margin:0px auto; 
+}
+#wrapper a {
+	color:white; 
+	font-weight: bold;
+}
+#wrapper a:hover {
+	color:#4099FF;
+}
+#header { 
+	border: 2px #a2a2a2 solid; 
+	background-image: url("images/logo2.jpg"); 
+	border-radius: 10px;
+}
+
+#content {
+	text-align: left; 
+	width: 55%; 
+	padding-left: 6px;
+	border: 2px #a2a2a2 solid; 
+	float: left; 
+	background-color: #2B2B27;
+	border-radius: 10px; 
+	margin-top: 20px; 
+	margin-left: 240px;
+	font-family: arial, verdana;}
+
+#sidebar {
+	width: 23%; 
+	float: right;
+	background-color: #2B2B27; 
+	border-radius: 10px; 
+	margin-top: 20px; 
+	font-family: arial, verdana; 
+	list-style-type: none; 
+	color:white;
+}
+
+#TopNews {
+	background-color: #2B2B27;	
+	width: 23%; 
+	float: right;
+ 	border-radius: 10px; 
+ 	margin-top: 22px; 
+ 	font-family: arial, verdana; 
+ 	list-style-type: none; 
+ 	color:white;
+ }
+
+#delimiter {
+	clear: both;
+}
+
+#footer {
+	border: 2px #a2a2a2 solid; 
+	background-color:#2B2B27;
+	border-radius: 10px; 
+	margin-top:20px; 
+	color:white; 
+	font-family: arial, verdana;
+}
+
+.post {
+	z-index: 9; 
+}
+
+.title {
+	font-size: 11pt; 
+	font-family: verdana; 
+	font-weight:bold; 
+}
+
+#accountDetails {
+	width: 150px; 
+	height:30px; 
+	margin-top: -80px; 
+	margin-left: 970px; 
+	position: absolute;
+}
+
+#accountDetails ul  li {
+	list-style-type: none; 
+	text-decoration: none; 
+	font-family: arial;
+}
+
+#posts {
+	background-color: white;
+	margin:10px;
+	padding:10px;
+	border-radius: 10px;
+}
+
+#posts a {
+	color:#4099FF;
+}
+
+#posts >.commentlist li {
+	list-style-type: none; 
+	background-color: #2B2B27; 
+	color:white; 
+	font-family:arial; 
+	border: 2px solid black; 
+	margin-left: -40px;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#TopNews ul {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#comments {
+	display:none;
+}
+
+#respond h3{
+	display:none;
+}
+
+#respond #comment {
+	width: 618px;
+}
+
+#respond #submit {
+	border-radius: 10px;
+}
+
+#respond #submit:hover {
+	background-color: #4099FF 
+}
+
+#sidebar ul a {
+	text-decoration: none;
+	color: white ;
+	text-align: center;
+	margin-left: -26px;
+}
+
+#TopNews ul a {
+	text-decoration: none;
+	color: white ;
+	text-align: center;
+	margin-left: -30px;
+}
+#TopNews h2 {
+	margin-left: -35px;
+}
+
+.RSSfeed {
+	width:23%;
+	margin-top: 8px;
+	background-color: orange;
+	float:right;
+	border-radius:10px;
+}
+
+#sidebar ul a:hover, #TopNews ul a:hover{
+	color: #4099FF;
+}
+
+#topnav-1 {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#topnav-3 {
+	padding-left: 47px;
+	padding-right: 47px;
+	padding-bottom: 26px;
+	padding-top: 25px;
+}
+#topnav-4 {
+	padding-bottom: 27px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#topnav-5 {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#topnav-6 {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#topnav {
+	float:right;
+	position: absolute;
+	margin-top: -79px;
+	width: 700px ;
+	margin-left: 200px;
+}
+
+#topnav li {
+	float: left;
+	
+	margin-top: -20px;
+	background-color: white;
+	border:1px solid #2B2B27;
+	-webkit-box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+	-moz-box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+	box-shadow:
+		inset 0 1px 3px #fff,
+		inset 0 -15px #cbe6f2,
+		0 0 3px #8ec1da;
+}
+
+#topnav li:hover {
+	background-color: #4099FF;
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#topnav li img {
+	background-size: 100px 100px;
+}
+
+#logo {
+	background-image: url("http://localhost:81/wordpress/wp-content/uploads/2015/02/logo.png");
+	background-size: 185px 155px;
+	background-position: -20px -26px;
+	display:block;
+   	height:100px;
+    text-indent:-9999px;
+    width:170px;
+    background-repeat: no-repeat;
+}
+
+.taxonomies {
+	background-color: #2B2B27; width: 18%; float: left; word-wrap: break-word; padding: 4px; border-radius: 10px; margin-top:-171px; margin-left: -908px;
+}
+
+.taxonomies #tags {
+	color:white;
+}
+
+.taglist a {
+	color:white;
+	padding: 2px;
+	margin:1px;
+	border-radius: 5px;
+	font-size: 15pt;
+	margin:10px;
+	text-decoration: none;
+	font-weight:bold;
+	font-family: arial, verdana;
+}
+
+.taglist {
+	border-radius: 10px;
+	padding:5px;
+}
+
+.taglist a:hover {
+	color:#4099FF;
+}
+
+#twitterAPI {
+	width: 16.6%; 
+	height:50px;
+	margin-top: 240px;
+	position: absolute;
+}
+
+#content #posts:first {
+	color:red;
+}

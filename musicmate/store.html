@@ -1,0 +1,53 @@
+<html>
+<head>
+	<style>
+    #StoreDisplay {
+      margin-left: 920px;
+      margin-top: 650px;
+      padding-top:10px;
+      box-shadow: 10px 10px 5px #888888;
+      width: 21%; 
+      border-radius: 10px; 
+      float: right;
+      background-color: black; 
+      position:absolute;
+      z-index:10;
+      font-family: arial;
+    }
+
+    #StoreDisplay li {
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .oscimp_product {
+      margin-top: 10px;
+    }
+
+    #outline{
+      padding-top:10px;
+      padding-bottom: 10px;
+      background-color: #2B2B27;
+      margin: 5px;
+      border-radius: 10px;
+    }
+
+    #bg {
+      width:270px;
+      border-radius: 10px;
+    }
+  </style>
+	
+</head>
+<body> 
+	<div id="StoreDisplay">
+      <?php
+        echo '<img id="bg" src="' . plugins_url( 'images/musicmate.jpg', __FILE__ ) . '" > ';
+      ?>
+      <div id="outline">
+      <li><?php echo musicmate_get_store_products(5); ?></li>
+    </div>
+  </div>
+
+</body> 
+</html>
